@@ -1,0 +1,31 @@
+year=input("What year was the book written? ")
+
+century=int(year[1])
+if century ==9:
+    print("Twentieth century")
+if century ==8:
+    print("Nineteenth century")
+
+decade=int(year[2])
+if decade ==0:
+    print("Noughties")
+if decade ==10:
+    print("Teenies")
+if decade ==2:
+    print("Twenties")
+if decade ==3:
+    print("Thirties")
+if decade ==4:
+    print("Fourties")
+if decade ==5:
+    print("Fifties")
+if decade ==6:
+    print("Sixties")
+if decade ==7:
+    print("Seventies")
+if decade ==8:
+    print("Eighties")
+if decade ==9:
+    print("Nineties")
+
+print(f"{century}, {decade}")
